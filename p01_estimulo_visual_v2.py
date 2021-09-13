@@ -23,18 +23,3 @@ h=cv2.rotate(h,cv2.ROTATE_90_COUNTERCLOCKWISE)
 viewer=napari.view_image(h,colormap="gray") #Utilizamos napari para visualizar en tiempo real
 napari.run() #ejecutamos el visualizador
 
-
-"""
-k1=0.010207#Rep
-k2=0.95
-k3=0.0145   #Para la función de atenuación
-
-"""
-
-"""
-Lo que debería ser:
-k1=0.0009012007#Rep
-k2=0.9507
-k3=0.0145   #Para la función de atenuación
-
-"""
